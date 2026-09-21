@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noto+Sans:wght@100..900&display=swap');
+/*on change la taille de police avec font-size et la couleur du fond avec background color*/
+body {
+    font-size: 30px;
+    background-color: #ccc;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;/*font-familly défini le type de font utiliser */
+    font-size: 5rem;/*permet de gérer la taille de la police*/
+    text-transform: capitalize;/*text-transform permet de converir un texte minuscule en majuscule*/
+    text-align: center;/*text-align permet de définir ou le tete s'écrit*/
+}
+
+h2, p {
+    font-family: 'Noto Sans', sans-serif;/*font-familly défini le type de font utiliser */
+}
+
+h2 {
+    font-size: 2rem;/*permet de gérer la taille de la police*/
+}
+
+p {
+    font-size: 1rem;/*permet de gérer la taille de la police*/
+}
+
+
+nav span{   /*On cible les span uniquement*/
+    margin: 5px 20px 5px 20px;/*marge exterieur ordre top right bottom left*/
+    padding: 0.5em;/*marge exterieur avec deux valeur la première gère l'axe vertical et la seconde l'axe horizontale*/
+    border: 1px solid black; /*affiche la bordure taille style couleur*/
+    background-color: #ddd;
+}
+
+nav{
+    background-color: #0c3742;
+    background-color: hsl(192, 82%, 15%);
+}
+
+.images-container{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+img{
+    width: 1500px;
+    height: 1500px;
+    margin: 50px 25px 50px 25px;
+    border-radius: 100px;
+}
